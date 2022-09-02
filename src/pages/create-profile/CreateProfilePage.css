@@ -1,0 +1,61 @@
+.pageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.createProfileContainer {
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    margin: 20px;
+    background-color: white;
+    padding: 20px;
+}
+
+.imageUpdateAreaContainer {
+    margin-bottom: 20px;
+}
+
+.myAddInputRow {
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.editFormSocialIcon {
+    color: #9277c9;
+}
+
+.imageUploadContainer {
+    display: flex;
+    align-items: center;
+}
+
+#profilePictureUploadPreview {
+    object-fit: cover;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.editChips {
+    margin: 4px;
+}
+
+.editFormErrorMessage {
+    color: red;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.stepperButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stepperButtons Button {
+    margin: 5px;
+}

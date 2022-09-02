@@ -1,0 +1,10 @@
+.scheduleMetricsContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f2fb;
+  padding: 10px;
+}
+
+.scheduleMetricsContainer h4 {
+  align-self: center;
+}

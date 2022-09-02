@@ -1,0 +1,54 @@
+.summarySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.summaryBigWidth {
+  width: 25vw;
+}
+
+.summaryBigHeight {
+  height: 30vh;
+}
+
+.summarySmallWidth {
+  width: 25vw;
+}
+
+.summarySmallHeight {
+  height: 30vh;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+.socialArea {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.editContainer {
+  align-self: flex-end;
+}
+
+.editIcon:hover {
+  transform: scale(1.015);
+  transition: all 0.1s ease-in-out;
+}
+
+.nameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.nameContainer h3 {
+  margin-right: 20px;
+}

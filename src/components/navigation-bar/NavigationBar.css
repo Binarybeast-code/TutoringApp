@@ -1,0 +1,11 @@
+.customNavBar {
+  background-color: #8060eb;
+}
+
+.customNavBar img {
+  margin-left: 10px;
+  object-fit: cover;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}

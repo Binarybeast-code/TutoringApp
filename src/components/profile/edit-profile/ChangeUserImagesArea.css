@@ -1,0 +1,25 @@
+.imageUploadContainer {
+    display: flex;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+
+.imageUploadButtons {
+    display: flex;
+    flex-direction: column;
+    align-self: start;
+    margin-right: 10px;
+}
+
+.imageUploadButtonsContainer {
+    display: grid;
+    align-self: start;
+    grid-template-columns: auto auto;
+}
+
+.saveImagesButtonContainer {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,89 @@
+.booked {
+    color: #f4f4f4;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #c1d579;
+}
+
+.booked:hover {
+    background-color: #adbf6c;
+}
+
+.popoverTitleContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 500;
+}
+
+.popoverTitleContainer div {
+    display: flex;
+    align-items: center;
+}
+
+.cancelIcon {
+    width: 40px;
+}
+
+.cancelIcon:hover {
+    filter: invert(40%) sepia(31%) saturate(4953%) hue-rotate(335deg) brightness(109%) contrast(100%);
+}
+
+.openableSlot:hover {
+    background-color: #4db6ac;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.open {
+    color: #eaeaea;
+    border: 0px;
+    border-radius: 10px;
+    background-color: #4db6ac;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.open:hover {
+    background-color: #409c93;
+}
+
+#coursesSelect, #notesInput {
+    margin-bottom: 6px;
+}
+
+.popoverTitleContainer {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.timeIcon {
+    object-fit: cover;
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.savingAppointmentArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.savingAppointmentArea h6 {
+    align-self: start;
+}

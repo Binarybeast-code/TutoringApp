@@ -1,0 +1,106 @@
+/* p, div {
+  font-family:  'Nunito', sans-serif;  
+} */
+#formBasicEmail.error {
+  border: 1px solid #EADAE4;
+}
+.error {
+  color:#db2269;
+  font-size: 0.625em;
+  display: relative;
+}
+.parentLoginFormBoxContainer {
+  height: 97vh;
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to top, #aea6f7 5.66%, #ebeff7 94.35%);
+  opacity: 90%;
+
+  z-index: 1;
+}
+
+.loginFormBoxContainer {
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 440px;
+  max-width: 80%;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px;
+  padding-bottom: 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: #fefefe;
+  z-index: 1;
+}
+
+.welcomeSign {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2em;
+  font-weight: lighter;
+  margin-top: 0.25em;
+  color: #222;
+  padding-bottom: 35px;
+}
+
+ .login-form{
+  width: 100%;
+  margin:auto 0;
+  text-align: center;
+ 
+}
+
+
+.signIn{
+  border-radius: 25px;
+  background-color: rgb(72, 10, 196);
+  border: none;
+  color: white;
+  margin: 15px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+} 
+
+ .signIn:hover {
+  background-color: rgb(245, 244, 245);
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+} 
+.buttonSignUp{
+  border-radius: 25px;
+  background-color: hsl(260, 68%, 59%);
+  border: none;
+  color: white;
+  margin: 15px;
+  text-align: center; 
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.6s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.buttonSignUp:hover {
+  background-color: rgb(245, 244, 245);
+  color: black;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form-group{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+

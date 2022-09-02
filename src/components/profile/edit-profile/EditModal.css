@@ -1,0 +1,66 @@
+.editIcon {
+  height: 30px;
+}
+
+.removableBoxHolder {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.editFormAddIcon {
+  color: #8060eb;
+}
+
+.editFormAddIcon:hover {
+  color: #664DBC;
+}
+
+.imageUpdateAreaContainer {
+  margin-bottom: 20px;
+}
+
+.myAddInputRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.editFormSocialIcon {
+  color: #8060eb;
+}
+
+#profilePictureUploadPreview {
+  object-fit: cover;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.editProfileModal {
+  min-width: 50vw;
+}
+
+.editChips {
+  margin: 4px;
+}
+
+.editFormErrorMessage {
+  color: red;
+  text-align: center;
+}
+
+.deleteConfirm {
+  display: flex;
+  justify-content: space-between;
+}
+
+#editProfileSaveBtn {
+  margin-right: 10px;
+}
+
+.editProfileLoadingContainer {
+  margin-top: 15px;
+}

@@ -1,0 +1,27 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  height: 100%;
+}
+
+.viewTuteeContainer {
+  display: flex;
+}
+
+.tuteeProfileContainer, .tuteeHistoryContainer {
+  display: flex;
+  height: fit-content;
+  margin-top: 5vh;
+}
+
+.tuteeHistoryContainer {
+  width: 30vw;
+  margin-right: 8vw;
+}
+
+.tuteeProfileContainer {
+  flex-direction: column;
+  width: 30vw;
+}

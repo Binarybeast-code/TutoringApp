@@ -1,0 +1,93 @@
+.scheduleScrollContainer {
+  overflow-y: scroll;
+}
+
+.stickyHeaderRow {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.weeklySchedule thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.weeklySchedule {
+  text-align: center;
+  background-color: #f5f2fb;
+  table-layout: fixed;
+  width: 100%;
+}
+
+.weeklySchedule th, td {
+  /* padding: 10px; */
+  border-bottom: 0.6px solid #e1e1e1;
+  border-right: 0.6px solid #e1e1e1;
+}
+
+.weeklySchedule th {
+  font-weight: normal;
+  color: #f2f2f2;
+  /* width: 110px; */
+  border: 0.6px solid #e1e1e1;
+  background-color: #8060eb;
+}
+
+.weeklySchedule td {
+  height: 35px;
+}
+
+.time {
+  position: relative;
+  bottom: 20px;
+  border: 0px;
+  /* border-right: solid #D8D8D8; */
+}
+
+.weekControlSection {
+  display: flex;
+  flex-direction: column;
+  background-color: #E4DDFB;
+  margin-bottom: 3px;
+  font-weight: normal;
+  padding: 10px;
+}
+
+.weekControlSection h6 {
+  margin-top: 10px;
+  align-self: center;
+}
+
+.weekControlSectionTop {
+  display: flex;
+  justify-content: space-around;
+}
+
+.weekControlSectionTop h5 {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.weekScheduleContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 100%;
+}
+
+.pastSlot {
+  background-color: #cacaca;
+}
+
+.weekChangeIcons:hover {
+  background-color: #f5f2fb;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.weekNavigator {
+  display: flex;
+}

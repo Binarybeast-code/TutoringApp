@@ -1,0 +1,22 @@
+.homeDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.homeImage {
+    object-fit: cover;
+    width: 50vw;
+    height: 30vw;
+}
+
+.carouselCaption {
+    padding: 5px;
+    color: #505050;
+    background-color: #cacaca;
+    opacity: 0.9;
+}
+
+.carouselPrevIcon {
+    color: #505050;
+    z-index: 1;
+}

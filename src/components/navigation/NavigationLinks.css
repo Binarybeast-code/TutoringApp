@@ -1,0 +1,93 @@
+.navigation-link {
+  list-style: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.navigation-link li {
+  margin: 1rem;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: large;
+}
+
+.navigation-link a {
+
+  border: 1px solid transparent;
+  color: #292929;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+.navigation-link a:hover,
+.navigation-link a:active,
+.navigation-link a.active {
+  text-decoration:none;
+  font-size: x-large;
+  transition-duration: 0.3s;
+  
+  color:#ffff;
+  background:
+     linear-gradient(
+       to right,
+       #6c63e9 0%,
+       #6c63e9 5px,
+       transparent
+     );
+}
+
+.navigation-link button {
+  cursor: pointer;
+  border: 1px solid #292929;
+  color: #292929;
+  background: transparent;
+  padding: 0.5rem;
+  font: inherit;
+}
+
+ .navigation-link button:focus {
+  outline: none;
+} 
+
+.navigation-link button:hover,
+.navigation-link button:active {
+  background: #292929;
+  color: white;
+  
+}
+
+@media (min-width: 768px) {
+  .navigation-link {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+  }
+
+  .navigation-link li {
+    margin: 0 0.5rem;
+  }
+
+  .navigation-link a {
+    color: white;
+    text-decoration: none;
+
+  }
+
+  .navigation-link button {
+    border: 1px solid white;
+    color: white;
+    background: transparent;
+  }
+  
+  .navigation-link button:hover,
+  .navigation-link button:active {
+    background: #f8df00;
+    color: #292929;
+  }
+}
