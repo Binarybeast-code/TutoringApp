@@ -7,7 +7,7 @@ import "bootstrap/dist/css/bootstrap.css"; // Bootstrap styles
 import NavigationBar from "./components/navigation-bar/NavigationBar";
 import "./styles/index.css";
 import reportWebVitals from "./reportWebVitals";
-import App from "./App";
+import App from "./components/App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
